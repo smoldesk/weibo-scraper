@@ -78,6 +78,23 @@ Pay per result. No monthly fee.
 - About 650 posts per keyword per date range. Split long periods into weeks.
 - Search is newest first only.
 
+## FAQ
+
+**Does Weibo have a public API?**
+The official one needs an approved developer app and mostly returns your own account. This scraper reads the public pages any visitor sees and returns clean JSON with English field names.
+
+**How do I scrape Weibo comments?**
+Set `includeComments` to true. `maxCommentsPerPost` and `maxRepliesPerComment` control how deep it goes. You can also pass post links in `postUrls` to get comments for specific posts.
+
+**Can I use it from Python?**
+Yes. `pip install apify-client`, then call `client.actor("smoldesk/weibo-scraper").call(run_input={...})` and read the dataset. Same input as the curl example above.
+
+**Do I need a Weibo account, a Chinese phone number or a VPN?**
+No. Nothing to log in to and no proxy to set up.
+
+**Can I track Weibo hot search over time?**
+Yes. Schedule a run every hour with `"trending": "hotSearch"` and compare `rank` and `heat` between runs.
+
 ## More scrapers
 
 Weibo is one of 12 no-login scrapers by Smoldesk Studios. See the full list: [smoldesk/apify-scrapers](https://github.com/smoldesk/apify-scrapers).
