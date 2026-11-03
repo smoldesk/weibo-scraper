@@ -97,4 +97,4 @@ Yes. Schedule a run every hour with `"trending": "hotSearch"` and compare `rank`
 
 ## More scrapers
 
-Weibo is one of 12 no-login scrapers by Smoldesk Studios. See the full list: [smoldesk/apify-scrapers](https://github.com/smoldesk/apify-scrapers).
+Weibo is one of 13 no-login scrapers by Smoldesk Studios. See the full list: [smoldesk/apify-scrapers](https://github.com/smoldesk/apify-scrapers).
