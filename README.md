@@ -11,6 +11,12 @@ Scrape Weibo (微博) posts, comments, profiles and the hot-search board (热搜
 - **Hot search (热搜)**: rank, topic, heat value and label. Schedule it hourly to track a topic.
 - **Only new posts** mode for daily or hourly keyword monitoring.
 
+## Brand monitoring & China market research
+
+Track what Chinese consumers say about a brand, product or competitor on Weibo, from outside China: no Weibo account, no Chinese phone number, no VPN. Search the brand in Chinese and English, switch on **Only new posts**, add an hourly or daily schedule, and send the results to Google Sheets, Slack or a webhook. Feed the `text` of posts and comments to your own LLM for sentiment scores, translation or a daily English summary.
+
+Ready-made examples: [Monitor a brand on Weibo (new posts only)](https://apify.com/smoldesk/weibo-scraper/examples/weibo-brand-monitoring) · [Weibo posts + comments for sentiment research](https://apify.com/smoldesk/weibo-scraper/examples/weibo-posts-comments-sentiment) · [Weibo hot search board](https://apify.com/smoldesk/weibo-scraper/examples/weibo-hot-search-board)
+
 ## Run it
 
 Open the [Weibo Scraper on Apify](https://apify.com/smoldesk/weibo-scraper), fill in the form and click Start. Or call it from code with your [Apify token](https://console.apify.com/settings/integrations):
