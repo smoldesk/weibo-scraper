@@ -1,5 +1,7 @@
 # Weibo Scraper
 
+![Weibo Scraper: posts, comments, profiles and the hot-search board (热搜) without login](https://raw.githubusercontent.com/smoldesk/apify-scrapers/main/assets/weibo/banner.png)
+
 Scrape Weibo (微博) posts, comments, profiles and the hot-search board (热搜). No login, no cookies, no API key. Runs on [Apify](https://apify.com/smoldesk/weibo-scraper).
 
 ## What you get
