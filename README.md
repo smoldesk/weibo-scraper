@@ -80,13 +80,13 @@ Export as JSON, CSV or Excel, or pipe it into Google Sheets, Make, Zapier or n8n
 
 ## Pricing
 
-Pay per result. No monthly fee.
+Pay per result. No monthly fee. Prices drop on paid Apify plans.
 
-| Result | Per 1,000 |
-|---|---|
-| Post or profile | $8 |
-| Comment or reply | $1 |
-| Hot-search topic | $1 |
+| Result (per 1,000) | Free | Starter | Scale | Business |
+|---|---|---|---|---|
+| Post or profile | $8.00 | $8.00 | $7.00 | $6.00 |
+| Comment or reply | $1.00 | $1.00 | $1.00 | $1.00 |
+| Hot-search topic | $1.00 | $1.00 | $1.00 | $1.00 |
 
 Typical runs: 100 posts for one keyword is about $0.80. 20 posts, 1 profile, 5 hot topics and 8 comments cost $0.18 in a real run. Comments are the cheap lever: 1,000 comments cost what 125 posts cost. Set a maximum cost per run and the scraper stops there.
 
